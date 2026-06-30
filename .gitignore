@@ -1,0 +1,53 @@
+# Build folders
+build/
+cmake-build-*/
+out/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+CMakeCache.txt.prev
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Qt generated files
+*_autogen/
+mocs_compilation.cpp
+.qtc/
+.qt/
+.qtcreator/
+*.user
+CMakeLists.txt.user
+qtcsettings.cmake
+
+# Binaries and libraries
+*.exe
+*.dll
+*.lib
+*.a
+*.o
+*.obj
+*.pdb
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+docs/html/
+docs/latex/
+.qmlcache/

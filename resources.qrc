@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/style">
+        <file>minimal.qss</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>assets/home_hero_girl.png</file>
+        <file>assets/projects_empty_header.png</file>
+        <file>assets/projects_onboarding_bulb.png</file>
+        <file>assets/projects_onboarding_collage.png</file>
+        <file>assets/projects_onboarding_capsule.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,108 @@
+#pragma once
+
+/*
+  File: src/app/AppCommon.h
+  Purpose: Common Qt includes shared by the desktop application modules.
+
+  Developer notes:
+  - This comment block is documentation only; it does not affect compilation.
+  - Keep business rules close to the module that owns the data.
+  - Prefer small helper functions instead of duplicating SQL, UI, or network logic.
+*/
+#include <QApplication>
+#include <QMainWindow>
+#include <QIcon>
+#include <QGroupBox>
+#include <QProcess>
+#include <QTcpServer>
+#include <QTcpSocket>
+#include <QDesktopServices>
+#include <QNetworkInterface>
+#include <QClipboard>
+#include <QUrlQuery>
+#include <QUrl>
+#include <QJsonDocument>
+#include <QThread>
+#include <QCloseEvent>
+#include <QJsonObject>
+#include <QJsonArray>
+#include <cmath>
+#include <QProgressDialog>
+#include <QSet>
+#include <QKeyEvent>
+#include <QFormLayout>
+#include <QUuid>
+#include <QCheckBox>
+#include <QWidget>
+#include <QSizePolicy>
+#include <QToolBar>
+#include <QDockWidget>
+#include <QStatusBar>
+#include <QComboBox>
+#include <QLabel>
+#include <QPushButton>
+#include <QGridLayout>
+#include <QTextEdit>
+#include <QVBoxLayout>
+#include <QFrame>
+#include <QScreen>
+#include <QScrollArea>
+#include <QVector>
+#include <QStackedWidget>
+#include <QListWidget>
+#include <QInputDialog>
+#include <QToolButton>
+#include <QString>
+#include <QByteArray>
+#include <QMessageBox>
+#include <QDialog>
+#include <QDialogButtonBox>
+#include <QSignalBlocker>
+#include <QTableWidget>
+#include <QRegularExpression>
+#include <QRegularExpressionValidator>
+#include <QDate>
+#include <QDateEdit>
+#include <QHeaderView>
+#include <QSpinBox>
+#include <QHBoxLayout>
+#include <QLineEdit>
+#include <QCryptographicHash>
+#include <QFormLayout>
+#include <QDoubleSpinBox>
+#include <QNetworkRequest>
+#include <QDateTime>
+#include <QNetworkAccessManager>
+#include <QNetworkReply>
+#include <QTimer>
+#include <QSet>
+#include <QTabWidget>
+#include <QMenu>
+#include <QFileDialog>
+#include <QPixmap>
+#include <QImage>
+#include <QPainter>
+#include <QPainterPath>
+#include <QColor>
+#include <QButtonGroup>
+#include <QRadioButton>
+#include <QScrollBar>
+#include <QDir>
+#include <QLocale>
+#include <QFileInfo>
+#include <algorithm>
+#include <QGraphicsDropShadowEffect>
+#include <QPropertyAnimation>
+#include <QEasingCurve>
+#include <QEnterEvent>
+#include <QMouseEvent>
+#include <QActionGroup>
+#include <QtSql/QSqlDatabase>
+#include <QtSql/QSqlQuery>
+#include <QtSql/QSqlError>
+#include <QVariant>
+#include <QCoreApplication>
+#include <QHostAddress>
+#include <QDebug>
+#include <QGuiApplication>
+

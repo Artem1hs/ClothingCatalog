@@ -1,0 +1,241 @@
+/* ================= GENERAL STYLE ================= */
+
+* {
+  font-family: "Segoe UI", "SF Pro Text", "Roboto", sans-serif;
+  font-size: 10pt;
+}
+
+/* Windows */
+QMainWindow, QDialog {
+  background-color: #F5F1EC;
+  color: #202226;
+}
+
+/* ================= HEADINGS ================= */
+
+QLabel#MainTitle {
+  font-size: 20pt;
+  font-weight: 700;
+  color: #202226;
+}
+
+QLabel#MainSubtitle {
+  color: #6C6F75;
+}
+
+/* ================= HERO BANNER ================= */
+
+QFrame#HeroBanner {
+  background-color: #FDFBF9;
+  border-radius: 24px;
+  border: 1px solid #E2E4EA;
+}
+
+/* ================= TOOLBAR / MENU ================= */
+
+QToolBar {
+  background-color: #F5F1EC;
+  border: none;
+  padding: 8px 16px;
+  spacing: 10px;
+}
+
+QToolBar QToolButton {
+  background: transparent;
+  color: #50545B;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+QToolBar QToolButton:hover {
+  background-color: #E7DBD0;
+}
+
+QToolBar QToolButton:checked {
+  background-color: #E0A58F;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+QToolBar QLabel {
+  color: #8C8F95;
+}
+
+/* ================= LEFT FILTER PANEL ================= */
+
+QDockWidget {
+  background-color: #F5F1EC;
+  border: none;
+}
+
+QDockWidget::title {
+  background-color: #F5F1EC;
+  padding: 4px 10px;
+  color: #9B9EA4;
+  border: none;
+}
+
+/* ================= TEXT ================= */
+
+QLabel {
+  color: #50545B;
+}
+
+/* ================= INPUT FIELDS ================= */
+
+QLineEdit,
+QComboBox,
+QSpinBox,
+QDoubleSpinBox {
+  background-color: #FFFFFF;
+  color: #202226;
+  border: 1px solid #E2E4EA;
+  border-radius: 12px;
+  padding: 6px 10px;
+}
+
+QLineEdit:focus,
+QComboBox:focus,
+QSpinBox:focus,
+QDoubleSpinBox:focus {
+  border: 1px solid #E0A58F;
+}
+
+QComboBox QAbstractItemView {
+  background-color: #FFFFFF;
+  color: #202226;
+  selection-background-color: #E0A58F;
+  selection-color: #FFFFFF;
+  border: 1px solid #E2E4EA;
+  border-radius: 8px;
+}
+
+/* ================= BUTTONS ================= */
+
+QPushButton {
+  background-color: #E0A58F;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 999px;
+  padding: 7px 18px;
+  font-weight: 600;
+}
+
+QPushButton:hover {
+  background-color: #E7B59F;
+}
+
+QPushButton:pressed {
+  background-color: #D58E74;
+}
+
+/* Large button */
+QPushButton#recommendButton {
+  font-size: 12pt;
+  padding: 10px 26px;
+}
+
+/* Secondary button */
+QPushButton[secondary="true"] {
+  background-color: #FFFFFF;
+  color: #50545B;
+  border: 1px solid #E2E4EA;
+}
+
+QPushButton[secondary="true"]:hover {
+  background-color: #F8F3EE;
+}
+
+/* ================= PRODUCT CARDS ================= */
+
+QFrame#ProductCard {
+  background-color: #FFFFFF;
+  border-radius: 18px;
+  border: 1px solid #E2E4EA;
+  padding: 10px;
+}
+
+QFrame#ProductCard:hover {
+  border-color: #E0A58F;
+  background-color: #FFF9F5;
+}
+
+/* Card text */
+QFrame#ProductCard QLabel {
+  color: #3C4046;
+}
+
+/* Price */
+QFrame#ProductCard QLabel[price="true"] {
+  font-size: 11pt;
+  font-weight: 600;
+}
+
+/* ================= SCROLL AREA ================= */
+
+QScrollArea {
+  border: none;
+  background: transparent;
+}
+
+QScrollArea > QWidget > QWidget {
+  background: transparent;
+}
+
+/* ================= TABLES (ADMIN PANEL, ORDERS) ================= */
+
+QHeaderView::section {
+  background-color: #F8F3EE;
+  color: #8C8F95;
+  padding: 6px 8px;
+  border: none;
+}
+
+QTableView, QTableWidget {
+  background-color: #FFFFFF;
+  alternate-background-color: #F9FAFB;
+  gridline-color: #E5E7EB;
+  selection-background-color: #E0A58F;
+  selection-color: #FFFFFF;
+  border-radius: 12px;
+  border: 1px solid #E2E4EA;
+}
+
+/* ================= STATUS BAR ================= */
+
+QStatusBar {
+  background-color: #F5F1EC;
+  color: #9B9EA4;
+  border-top: 1px solid #E2E4EA;
+}
+
+/* ================= BOTTOM NAVIGATION BAR ================= */
+
+QFrame#BottomNav {
+  background-color: #F5F1EC;
+  border-top: 1px solid #E2E4EA;
+}
+
+QToolButton[bottomNav="true"] {
+  background: transparent;
+  border: none;
+  color: #9B9EA4;
+  padding: 2px 4px;
+  font-size: 9pt;
+}
+
+QToolButton[bottomNav="true"]:hover {
+  color: #E0A58F;
+}
+
+QToolButton[bottomNav="true"]:checked {
+  color: #202226;
+  font-weight: 600;
+}
+
+QToolButton[bottomNav="true"]#RecommendButton {
+  background: #E5C0AF;
+  border-radius: 24px;
+  padding: 6px;
+}
